@@ -1,2 +1,47 @@
+/*цвет основного текста #212121 */
+/*вторичный  цвет #757575  */
+/*акцент #2196F3 */
+/*белый шапка,footer adress #FFFFFF */
+/*белый background  #E5E5E5 */
+/* белый наша команда #F5F4FA */
+/* footer  #2F303A */
+/* footer contacts rgba(255, 255, 255, 0.6); */
+/*титульный цвет #2F303A */
 
+.logo {
+  color: #212121;
+}
+.logo:hover {
+  color: #2196f3;
+}
 
+body {
+  color: #757575;
+}
+
+.site-nav .link {
+  color: #212121;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: #2196f3;
+}
+.site-contacts .mail {
+  color: #2196f3;
+}
+
+.site-contacts .tel {
+  color: #757575;
+}
+.title-section {
+  background-color: #2f303a;
+}
+.title-section .title {
+  color: #ffffff;
+}
+
+.button {
+  color: #ffffff;
+  background-color: #2196f3;
+}
