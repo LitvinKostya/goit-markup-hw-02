@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WebStudio</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
 
@@ -14,35 +18,37 @@
       <nav>
         <a href="" class="logo">WebStudio</a>
 
-        <ul class="site-nav">
-          <li><a href="" class="link">Портфолио</a></li>
-          <li><a href="" class="link">Контакты</a></li>
-          <li><a href="" class="link">Студия</a></li>
+        <ul class="list">
+          <li><a href="" class="link menu-link">Портфолио</a></li>
+          <li><a href="" class="link menu-link">Контакты</a></li>
+          <li><a href="" class="link menu-link">Студия</a></li>
         </ul>
       </nav>
 
-      <ul class="site-contacts">
+      <ul class="list">
         <li>
-          <a href="mailto:info@devstudio.com" class="contacts"
-            >info@devstudio.com
-          </a>
+          <a href="mailto:info@devstudio.com" class="link header-mail"
+            >info@devstudio.com</a
+          >
         </li>
         <li>
-          <a href="tel:+380961111111" class="tel">+38 096 111 11 11</a>
+          <a href="tel:+380961111111" class="link header-cont"
+            >+38 096 111 11 11</a
+          >
         </li>
       </ul>
     </header>
 
     <main>
-      <section class="title-section">
-        <h2 class="title">Эффективные решения для вашего бизнеса</h2>
-        <a href="" class="button">Заказать услугу</a>
+      <section class="title-head">
+        <h2>Эффективные решения для вашего бизнеса</h2>
+        <button class="btn" type="button">Заказать услугу</button>
       </section>
 
       <section>
-        <ul>
+        <ul class="list">
           <li>
-            <h3>Внимание к деталям</h3>
+            <h3 class="activity">Внимание к деталям</h3>
             <p>
               Идейные соображения, а также начало повседневной работы по
               формированию позиции.
@@ -50,7 +56,7 @@
           </li>
 
           <li>
-            <h3>Пунктуальность</h3>
+            <h3 class="activity">Пунктуальность</h3>
             <p>
               Задача организации, в особенности же рамки и место обучения кадров
               влечет за собой.
@@ -58,7 +64,7 @@
           </li>
 
           <li>
-            <h3>Планирование</h3>
+            <h3 class="activity">Планирование</h3>
             <p>
               Равным образом консультация с широким активом в значительной
               степени обуславливает.
@@ -66,7 +72,7 @@
           </li>
 
           <li>
-            <h3>Современные технологии</h3>
+            <h3 class="activity">Современные технологии</h3>
             <p>
               Значимость этих проблем настолько очевидна, что реализация
               плановых заданий.
@@ -76,9 +82,9 @@
       </section>
 
       <section>
-        <h2>Чем мы занимаемся</h2>
+        <h2 class="page-title">Чем мы занимаемся</h2>
 
-        <ul>
+        <ul class="list">
           <li>
             <img
               src="images/1.img.png"
@@ -107,9 +113,9 @@
       </section>
 
       <section>
-        <h2>Наша команда</h2>
+        <h2 class="page-title">Наша команда</h2>
 
-        <ul>
+        <ul class="list">
           <li>
             <img
               src="images/4.img.jpg"
@@ -117,7 +123,7 @@
               height="260"
               alt="Парень в очках"
             />
-            <h2>Игорь Демьяненко</h2>
+            <h2 class="teams-name">Игорь Демьяненко</h2>
             <p>Product Designer</p>
           </li>
 
@@ -128,7 +134,7 @@
               height="260"
               alt="Девушка блондинка"
             />
-            <h2>Ольга Репина</h2>
+            <h2 class="teams-name">Ольга Репина</h2>
             <p>Frontend Developer</p>
           </li>
 
@@ -139,7 +145,7 @@
               height="260"
               alt="Улыбающийся парень"
             />
-            <h2>Николай Тарасов</h2>
+            <h2 class="teams-name">Николай Тарасов</h2>
             <p>Marketing</p>
           </li>
 
@@ -150,7 +156,7 @@
               height="260"
               alt="Парень с бородой"
             />
-            <h2>Михаил Ермаков</h2>
+            <h2 class="teams-name">Михаил Ермаков</h2>
             <p>UI Designer</p>
           </li>
         </ul>
@@ -159,21 +165,31 @@
 
     <!--Футер-->
 
-    <footer>
-      <a href="">WebStudio</a>
-
-      <ul>
-        <li>
-          <a
-            href="https://goo.gl/maps/nbsRifXUNLBTFQnN9"
-            target="blank"
-            rel="noopener noreferer"
-            >г. Киев, пр-т Леси Украинки, 26</a
-          >
-        </li>
-        <li><a href="mailto:info@example.com">info@example.com</a></li>
-        <li><a href="tel:+380991111111">+38 099 111 11 11</a></li>
-      </ul>
+    <footer class="footer-bg">
+      <a href="" class="logo">WebStudio</a>
+      <address>
+        <ul class="list footer-contacts">
+          <li>
+            <a
+              href="https://goo.gl/maps/nbsRifXUNLBTFQnN9"
+              target="blank"
+              rel="noopener noreferer"
+              class="link"
+              >г. Киев, пр-т Леси Украинки, 26</a
+            >
+          </li>
+          <li>
+            <a href="mailto:info@example.com" class="link footer-color"
+              >info@example.com</a
+            >
+          </li>
+          <li>
+            <a href="tel:+380991111111" class="link footer-color"
+              >+38 099 111 11 11</a
+            >
+          </li>
+        </ul>
+      </address>
     </footer>
   </body>
 </html>
