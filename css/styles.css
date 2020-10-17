@@ -138,6 +138,12 @@ address {
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--acent-cl);
+  text-decoration: none;
+}
+
+.logo:hover,
+.logo:focus {
+  color: purple;
 }
 
 /*стили на навигацию*/
@@ -173,6 +179,7 @@ address {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
+  text-transform: uppercase;
   background-color: var(--footer-bg-cl);
   color: var(--white);
 }
@@ -188,7 +195,7 @@ address {
 .activity {
   font-family: Roboto;
   font-size: 14px;
-  line-height: 1, 14;
+  line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase; /*все заглавные*/
   color: var(--secondary-text-cl);
