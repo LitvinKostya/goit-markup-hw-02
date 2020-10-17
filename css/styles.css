@@ -132,6 +132,7 @@ address {
 }
 
 /*логотип*/
+
 .logo {
   font-family: Raleway;
   font-size: 26px;
@@ -141,9 +142,21 @@ address {
   text-decoration: none;
 }
 
+.studio-cl-1 {
+  color: var(--secondary-text-cl);
+}
+
+.studio-cl-2 {
+  color: var(--white);
+}
+
 .logo:hover,
-.logo:focus {
-  color: purple;
+.logo:focus,
+.studio-cl-1:hover,
+.studio-cl-1:focus,
+.studio-cl-2:hover,
+.studio-cl-2:focus {
+  color: pink;
 }
 
 /*стили на навигацию*/
@@ -170,7 +183,6 @@ address {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: var(--acent-cl);
 }
 
 /*титулка*/
@@ -180,10 +192,12 @@ address {
   font-size: 44px;
   line-height: 1.36;
   text-transform: uppercase;
-  background-color: var(--footer-bg-cl);
   color: var(--white);
 }
 
+.section-color {
+  background-color: var(--footer-bg-cl);
+}
 .page-title {
   font-family: Roboto;
   font-size: 36px;
